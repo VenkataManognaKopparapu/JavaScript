@@ -1,0 +1,52 @@
+body{
+    background-image: url(image.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+#increment-btn{
+    color: rgb(168, 125, 125);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid black;
+    font-size: 28px;
+    background-color: rgb(102, 11, 11);
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+h2{
+    font-size: 44px;
+}
+
+#count-el{
+    font-size:30px;
+}
+
+#save-btn{
+    color: rgb(165, 204, 170);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid green;
+    font-size: 28px;
+    background-color: green;
+    border-radius: 10px;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#save-el{
+    color: white;
+    margin-top: 30px;
+    font-size: 32px;   
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
