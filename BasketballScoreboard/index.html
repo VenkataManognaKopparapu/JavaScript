@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel= "stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container-main">
+            <div class="container-home">
+                <h1> HOME </h1>
+                <p id="home-score"> 0</p>
+                <div class="btn-mainhome">
+                    <button onclick="increment1()"> +1 </button>
+                    <button onclick="increment2()"> +2 </button>
+                    <button onclick="increment3()"> +3 </button>
+                </div>
+                <button id="save-home" onclick="saveh()"> Save </button>
+                <P id="home-entry"> Entries:  </P>
+            </div>
+            <div class="container-guest">
+                <h1> GUEST </h1>
+                <p id ="guest-score"> 0 </p>
+                <div class="btn-mainguest">
+                    <button onclick="guestinc1()"> +1 </button>
+                    <button onclick="guestinc2()"> +2 </button>
+                    <button onclick="guestinc3()"> +3 </button>
+                </div>
+                <button id="save-guest" onclick="saveg()">Save</button>
+                <P id="guest-entry"> Entries:  </P>
+            </div>
+        </div>
+    <script src="index.js"></script>
+    </body>
+</html>

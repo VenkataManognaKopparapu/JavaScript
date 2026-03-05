@@ -1,0 +1,97 @@
+.container-main{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: auto;
+    width: 75%;
+    justify-content: space-between;
+}
+
+.container-home{
+    margin-left: 25px;
+}
+
+.container-guest{
+    margin-right: 25px;
+}
+
+#home-score{
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 120px;
+    font-weight: bolder;
+    font-size: xx-large;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+   
+}
+ 
+body{
+    background-color: aliceblue;
+}
+
+#guest-score{
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    align-items: center;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+.btn-mainhome{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn-mainguest{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#save-home{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#save-home:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+#save-guest{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#save-guest:hover{
+    background-color: black;
+    color: whitesmoke;
+}
