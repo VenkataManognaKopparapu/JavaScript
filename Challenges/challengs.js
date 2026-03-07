@@ -60,3 +60,26 @@ console.log("11" + " 14")//1114
 //render the result of the cacuation in the paragaph with id=''
 //E.g. if the user clicks on the " Plus" button, you should render 
 // "sum: 10" since (8 + 2 = 10) in side3 the paragraph with is="sum-el"
+
+// check if the person is eligible for a birthday card from the king! (if age is more than 100 the are qualified to get a card)
+//if less than 100 - " Not Eligible"
+//else if exactly 100 - "Here is your birthday card from the king!"
+//else - "Not Eligible, you have a already gotten one"
+let age = 100 
+if ( age < 100){
+    console.log( "Not Eligible")
+} else if ( age === 100){
+    console.log ( "Here is your birthday card from the king!" )
+} else {
+    console.log ( "Not Elegible,you have already gotten one")
+}
+
+
+//Boolean
+console.log (4===3)//false
+console.log (5>2)//true
+console.log(12 > 12) // false
+console.log ( 3 < 0) //false
+console .log( 3>=3)//true
+console .log( 11<=11) //true
+console .log( 3 <=2 )//false
