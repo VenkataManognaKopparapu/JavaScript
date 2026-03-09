@@ -1,0 +1,52 @@
+h1{
+    color: goldenrod;
+    text-align: center;
+}
+body{
+    background-color: rgb(2, 88, 2);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#message-el{
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+#card-el{
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+#sum-el{
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+#start-game{
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+#new-game{
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}
