@@ -83,3 +83,14 @@ console.log ( 3 < 0) //false
 console .log( 3>=3)//true
 console .log( 11<=11) //true
 console .log( 3 <=2 )//false
+
+
+//Arrays - Ordered Lists of Items
+//create an array that lists your experience, education, licenses, skills or similar the items of array should be strings 
+let expeience = ["FrontEnd Developer at everline Coatings and services",
+                  "Voluntreed as UX Designer at NGO named YPCommunities",
+                  "UX Engineer at Adecco"
+]
+let education = ["Masters at Northeastern University",
+                  " Batchlors at Anna University"
+]
