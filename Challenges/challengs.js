@@ -94,3 +94,10 @@ let expeience = ["FrontEnd Developer at everline Coatings and services",
 let education = ["Masters at Northeastern University",
                   " Batchlors at Anna University"
 ]
+
+
+// Index
+//Make following apper on console "V"oluntreed as UX Designer at NGO named YPCommunities"
+console.log ( experience [1])
+////Make following apper on console"Masters at Northeastern University"
+console.log( education [0])
