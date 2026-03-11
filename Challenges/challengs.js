@@ -101,3 +101,9 @@ let education = ["Masters at Northeastern University",
 console.log ( experience [1])
 ////Make following apper on console"Masters at Northeastern University"
 console.log( education [0])
+
+
+// Arrays with multiple data types
+//Create an array that describes yourself. Use the three primitive data types
+//It should contain your name (string), your age (number), and whether you like boba tea (boolean)
+let manu = [" Manogna Kopparapu" , 31, true]
