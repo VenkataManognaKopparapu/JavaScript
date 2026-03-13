@@ -28,5 +28,6 @@ function startGame(){
 function newcard(){
     let card = 11
     sum = sum + card
+    cards.push[card]
     startGame()
 }  
